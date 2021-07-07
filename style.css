@@ -1,28 +1,24 @@
-header{
-background: #00d2ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border-top: 100px;
-}
 .caixa{
     position: relative;
-	width: 1200px;
+	width: 100%;
 }
 .caixa img{
-    width: 90%;
+    width: 125px;
+    height: 125px;
 
 }
 .caixa img:hover{
-    width: 100%;
-
+    width: 150px;
+    height: 150px;
 }
 .links{
     text-align: right;
+    color: black;
 }
 
 nav{
     position: absolute;
-    top: 75%;
+    top: 50%;
     right: 0;
 }
 nav a{
@@ -38,4 +34,13 @@ nav a{
 }
 nav a:hover{
     color: #00d2ff;
+    text-decoration: underline;
+}
+.sobre{
+    width:940px;
+    font-size: 40px;
+    margin: 0 auto;
+}
+.sobre h1{
+    margin: 0 0 0 0;
 }

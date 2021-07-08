@@ -1,6 +1,7 @@
 .caixa{
     position: relative;
 	width: 100%;
+    border: 2px #00d2ff solid;
 }
 .caixa img{
     width: 125px;

@@ -1,19 +1,23 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+#pagina-atual{
+    
+    text-decoration: underline;
+}
 .caixa{
     position: relative;
 	width: 100%;
     border: 2px #00d2ff solid;
 }
 .caixa img{
-    width: 125px;
-    height: 125px;
+    width: 675px;
+    height: 130px;
 
 }
 .caixa img:hover{
-    width: 150px;
-    height: 150px;
+    width: 680px;
+    height: 135px;
 }
 .links{
     text-align: right;
@@ -22,7 +26,7 @@ body {
 
 nav{
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 0;
 }
 nav a{
@@ -30,7 +34,7 @@ nav a{
     text-decoration: none;
     color: white;
     position: relative;
-    margin: 0 30px 0 0;
+    margin: 0 50px 0 0;
     text-transform: uppercase;
     font-size: 30px;
     
@@ -39,6 +43,7 @@ nav a{
 nav a:hover{
     color: #00d2ff;
     text-decoration: underline;
+    font-size: 31px;
 }
 main h1{
  font-size: 50px;
@@ -54,6 +59,31 @@ main h1{
 .clientes a{
     display: inline;
     padding-right: 125px;
-    
 }
+p{
+    text-align: center;
+    font-size: 25px;
+}
+footer{
+    background: #0078af;
+    padding: 40px 0;
+}
+#topBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #0078ff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+#topBtn:hover {
+    background-color: #555;
+  }
 

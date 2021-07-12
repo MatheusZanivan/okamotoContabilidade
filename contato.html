@@ -4,23 +4,76 @@
         <title>Contato - Okamoto</title>
         <link rel='stylesheet' type='text/css'  href='reset.css'>
         <link rel='stylesheet' type='text/css'  href='style.css'>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="images/icon.png"/>
         <script src='script.js'></script>
         <meta charset="UTF-8">
+        
     </head>
     <body>
         <header>
             <div class="caixa">
-                <a href="index.html"><img src="images/icon.png"></a>
+                <a href="index.html"><img src="images/logoOkamotoPng.png"></a>
                 <nav>
                     <a class="links" href="index.html">Home</a>
-                    <a class="links" href="contato.html">Contato</a>
+                    <a class="links" href="servicos.html">Serviços</a>
+                    <a id="pagina-atual" class="links" href="contato.html">Contato</a>
+                    
                 </nav>
             </div>
         </header>
-        <main>
-           <p>pagina de contato</p>
-        </main>
+       		<main>
+			<form>
+				<label for="nomesobrenome">Nome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome ou nome da Empresa">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+			<table>
+				<tr>
+					<td>Dia</td>
+					<td>Horário</td>
+				</tr>
+				<tr>
+					<td>Segunda</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Quarta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Sexta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+			</table>
+		</main>
+        <footer>
+            <img src="images/icon.png">
+            
+        </footer>
+        <button onclick="topFunction()" id="topBtn" title="Vai para o Começo">Top</button>
     </body>
 
 </html>

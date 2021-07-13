@@ -7,18 +7,16 @@ body {
 }
 .caixa{
     position: relative;
+    background: #0078af;
 	width: 100%;
-    border: 2px #00d2ff solid;
+    height: 175px;
+    
 }
 .caixa img{
-    width: 675px;
-    height: 130px;
+    width: 700px;
+    height: 154px;
+}
 
-}
-.caixa img:hover{
-    width: 680px;
-    height: 135px;
-}
 .links{
     text-align: right;
     color: black;
@@ -45,23 +43,30 @@ nav a:hover{
 }
 .menu-da-pagina{
     text-align: center;
-    height: 10px;   
+    height: 10px;
+    left: 35%;
 }
 .menu-da-pagina a{
     text-decoration: none;
     color: black;
-    padding-right: 30px;
+    padding: 5px 10px 0 10px;
+    background: #009de6;
+    text-align: center;
+}
+.menu-da-pagina a:hover{
+    background-color: #66cfff;
+
 }
 main h1{
  font-size: 50px;
  text-align: center;
 }
 .banner{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .clientes{
     width: 100%;
-    height: 80px;
+    height: 135px;
     border: 2px #00d2ff solid;
     position: relative;
     text-align: center;
@@ -69,6 +74,7 @@ main h1{
 .clientes a{
     display: inline;
     padding-right: 125px;
+    
 }
 p{
     text-align: center;
@@ -93,6 +99,6 @@ footer{
     border-radius: 4px;
 }
 #topBtn:hover {
-    background-color: #555;
+    background-color: #00d2ff;
 }
 

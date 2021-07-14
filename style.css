@@ -1,15 +1,15 @@
 body {
+    margin: 0;
 	font-family: 'Montserrat', sans-serif;
 }
 #pagina-atual{
-    
     text-decoration: underline;
 }
 .caixa{
     position: relative;
     background: #0078af;
 	width: 100%;
-    height: 175px;
+    height: 160px;
     
 }
 .caixa img{
@@ -42,20 +42,29 @@ nav a:hover{
     font-size: 31px;
 }
 .menu-da-pagina{
-    text-align: center;
-    height: 10px;
-    left: 35%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .menu-da-pagina a{
-    text-decoration: none;
-    color: black;
-    padding: 5px 10px 0 10px;
-    background: #009de6;
-    text-align: center;
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 .menu-da-pagina a:hover{
-    background-color: #66cfff;
+    background: #f1f1f1;
+    color: black;
 
+}
+.menu-da-pagina a:active{
+    background-color: #04AA6D;
+    color: white;
 }
 main h1{
  font-size: 50px;

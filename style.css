@@ -85,7 +85,6 @@ main h1{
     text-align: center;
     background-color: white;
 }
-
 .links-clientes{
     display: block;
     margin-left: auto;
@@ -102,6 +101,7 @@ p{
 footer{
     background: #0078af;
     padding: 40px 0;
+    
 }
 #topBtn{
     position: fixed;
